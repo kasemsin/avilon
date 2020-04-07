@@ -174,7 +174,7 @@
 
     var prevIndex = 0;
     $('#fullpage').fullpage({
-        anchors: ['welcome', 'about', 'gallery', 'subscribe', 'services', 'contacts'],
+        anchors: ['Gryphon', 'Precision', 'Features', 'Contacts'],
         menu: '#header-nav',
         scrollingSpeed: 800,
         autoScrolling: false,
