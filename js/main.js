@@ -177,7 +177,7 @@
         anchors: ['welcome', 'about', 'gallery', 'subscribe', 'services', 'contacts'],
         menu: '#header-nav',
         scrollingSpeed: 800,
-        autoScrolling: true,
+        autoScrolling: false,
         scrollBar: true,
         easing: 'easeInOutCubic',
         resize: false,
