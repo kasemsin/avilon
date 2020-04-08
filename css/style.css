@@ -391,6 +391,7 @@ label {
   z-index: 13;
 }
 .owl-carousel-nav .owl-btn {
+  color: #9800de;
   background-color: #ffffff;
   display: inline-block;
   font-size: 15px;
@@ -400,6 +401,8 @@ label {
   float: left;
 }
 .owl-carousel-nav .owl-btn:hover {
+
+  color: #ffffff;
   background-color: #9800de;
 }
 
