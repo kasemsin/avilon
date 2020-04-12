@@ -43,9 +43,16 @@
     <!-- <link rel="stylesheet" href="css/sofbox-style.css"> -->
     <!-- Responsive pasted-->
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
-
-
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="css/ionicons2.min.css">
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.css" />
     <!-- End Header styles-->
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <!-- custom style -->
+    <link rel="stylesheet" href="css/custom.css" />
 
     <!--Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
@@ -628,46 +635,95 @@
       <!-- End Services -->
 
       <!-- Start Contacts -->
-      <section class='section' data-jarallax-video="https://www.youtube.com/watch?v=Wimkqo8gDZ0" startTime="5" >
-        <div class='overlay'></div>
-        <div class='container'>
-          <div class='row'>
-            <div class='col-sm-6'>
-              <h1 class='section-title animated' data-animation-delay='50' data-animation='fadeInUp' style="color:#ffffff;">
-                Contacts
-              </h1>
-              <form action='#' id='contact-form'>
-                <div class='form-wrap'>
-                  <div class='form-group animated' data-animation-delay='100' data-animation='fadeInUp'>
-                    <input class='form-control form-control-no-space border-bottom' id='contact-form-name' name='name' placeholder='Name' type='text'>
+      <section class="footer-info white-bg section">
+          <div class="container">
+              <div class="row justify-content-end">
+                  <div class="col-md-6 col-lg-4">
+                      <div class="iq-get-in">
+                          <h4 class="iq-tw-7 iq-mb-20">Get in Touch</h4>
+                          <form id="contact" method="post">
+                          <div class="contact-form">
+                              <div class="section-field">
+                                  <input class="require" id="contact_name" type="text" placeholder="Name*" name="name">
+                              </div>
+                              <div class="section-field">
+                                  <input class="require" id="contact_email" type="email" placeholder="Email*" name="email">
+                              </div>
+                              <div class="section-field">
+                                  <input class="require" id="contact_phone" type="text" placeholder="Phone*" name="phone">
+                              </div>
+                              <div class="section-field textarea">
+                                  <textarea id="contact_message" class="input-message require" placeholder="Comment*" rows="5" name="message"></textarea>
+                              </div>
+                              <div class="section-field iq-mt-20">
+                                  <div class="g-recaptcha" data-sitekey="6Lc5XV4UAAAAAJzUmGomye9Peru8lXyzT22FH0lX"></div>
+                              </div>
+                              <button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-15">Send Message</button>
+                              <div class="alert alert-success alert-dismissible fade show" role="alert" id="success">
+                                  <strong>Thank You, Your message has been received.</strong>.
+                                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                  </button>
+                              </div>
+                          </div>
+                      </form>
+                      </div>
                   </div>
-                  <div class='form-group animated' data-animation-delay='200' data-animation='fadeInUp'>
-                    <input class='form-control form-control-no-space border-bottom' id='contact-form-email_contact-form-email' name='email' placeholder='Email' type='text'>
+              </div>
+
+
+              <div class="row">
+                  <div class="col-md-6 col-lg-3">
+                      <div class="iq-footer-box text-left">
+                          <div class="iq-icon">
+                              <i aria-hidden="true" class="ion-ios-location-outline"></i>
+                          </div>
+                          <div class="footer-content">
+                              <h4 class="iq-tw-6 iq-pb-10">Address</h4>
+                              <p>1234 North Avenue Luke Lane, South Bend, IN 360001</p>
+                          </div>
+                      </div>
                   </div>
-                  <div class='form-group animated' data-animation-delay='300' data-animation='fadeInUp'>
-                    <textarea class='form-control form-control-no-space border-bottom' cols='30' id='contact-form-message' name='message' placeholder='Message' rows='5'></textarea>
+                  <div class="col-md-6 col-lg-3 r4-mt-30">
+                      <div class="iq-footer-box text-left">
+                          <div class="iq-icon">
+                              <i aria-hidden="true" class="ion-ios-telephone-outline"></i>
+                          </div>
+                          <div class="footer-content">
+                              <h4 class="iq-tw-6 iq-pb-10">Phone</h4>
+                              <p>+0123 456 789
+                                  <br>Mon-Fri 8:00am - 8:00pm
+                                  <br>
+                              </p>
+                          </div>
+                      </div>
                   </div>
-                  <div class='form-group mg-t'>
-                    <button class='btn btn-color btn-rounded btn-lg btn-submit animated' data-animation-delay='350' data-animation='fadeInUp' type='submit'>
-                      Send Message
-                      <i class='fa fa-paper-plane'></i>
-                    </button>
+                  <div class="col-md-6 col-lg-3 r-mt-30">
+                      <div class="iq-footer-box text-left">
+                          <div class="iq-icon">
+                              <i aria-hidden="true" class="ion-ios-email-outline"></i>
+                          </div>
+                          <div class="footer-content">
+                              <h4 class="iq-tw-6 iq-pb-10">Mail</h4>
+                              <p>support@sofbox.com
+                                  <br>24 X 7 online support
+                                  <br>
+                              </p>
+                          </div>
+                      </div>
                   </div>
-                </div>
-                <div class='mgs'>
-                  <div class='success-message'>
-                    <i class='fa fa-check'></i>
-                    Your message has been sent successfully.
+                  <div class="col-md-6 col-lg-3 align-self-center">
+                      <ul class="info-share">
+                          <li><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
+                          <li><a href="javascript:void(0)"><i class="fa fa-google"></i></a></li>
+                          <li><a href="javascript:void(0)"><i class="fa fa-github"></i></a></li>
+                      </ul>
                   </div>
-                  <div class='error-message'>
-                    <i class='fa fa-warning'></i>
-                    E-mail must be valid
-                  </div>
-                </div>
-              </form>
-            </div>
+              </div>
+
           </div>
-        </div>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.238086544723!2d120.25313401542327!3d23.01502882238431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e70d4495703f1%3A0xf0a294d811bc3b5e!2zTm8uIDIzMywgV2VuaHVhIFJvYWQsIFlvbmdrYW5nIERpc3RyaWN0LCBUYWluYW4gQ2l0eSwg4LmE4LiV4LmJ4Lir4Lin4Lix4LiZIDcxMA!5e0!3m2!1sth!2sth!4v1586688966411!5m2!1sth!2sth" style="border:0" allowfullscreen></iframe>
       </section>
       <!-- End Contacts -->
 
