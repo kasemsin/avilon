@@ -42,8 +42,9 @@ NOTE: This file contains the styling for responsive Template.
 @media(max-width:1199px) {
 
 	/*----------------
-	Section padding 
+	Section padding
 	----------------*/
+	.row .rowzero { margin-top:20px;}
 	.overview-block-ptb { padding: 80px 0; }
 	.overview-block-pt { padding: 80px 0 0; }
 	.overview-block-pb { padding: 0 0 80px;  }
@@ -214,7 +215,7 @@ NOTE: This file contains the styling for responsive Template.
 @media(max-width:767px) {
 
 	/*----------------
-		Section padding 
+		Section padding
 		----------------*/
 	.overview-block-ptb { padding: 50px 0; }
 	.overview-block-pt { padding: 50px 0 0; }
@@ -269,7 +270,7 @@ NOTE: This file contains the styling for responsive Template.
 	.iq-banner.wave-one .banner-text {
     margin-top: 15%;}
     .iq-banner-11 .container-fluid { padding: 20px; }
-    .iq-banner-11 .banner-text h1 { font-size: 40px; } 
+    .iq-banner-11 .banner-text h1 { font-size: 40px; }
     .iq-banner-09 .form-group { width: 100%; }
     .iq-banner-09 .form-inline .button { margin-left: 0; }
     .iq-newsletter .form-group { margin-bottom: 20px; }
