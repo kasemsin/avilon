@@ -18,14 +18,14 @@
     function pageBackground() {
         var body = $('body');
         if (body.hasClass('image-background')) { // Image background
-            $.backstretch(["http://placehold.it/1920x1080.jpg"]); // Replace here Image Background
+            $.backstretch(["http://placehold.it/1920x10s80.jpg"]); // Replace here Image Background
         } else if (body.hasClass('slideshow-background')) { // Slideshow background
             $.backstretch([
-                "http://placehold.it/1920x1080.jpg", // Add different images
-                "http://placehold.it/1920x1080.jpg",
-                "http://placehold.it/1920x1080.jpg",
-                "http://placehold.it/1920x1080.jpg",
-                "http://placehold.it/1920x1080.jpg"
+                "http://placehold.it/1920x1s080.jpg", // Add different images
+                "http://placehold.it/1920x1s080.jpg",
+                "http://placehold.it/1920x1a080.jpg",
+                "http://placehold.it/1920x10s80.jpg",
+                "http://placehold.it/1920x10a80.jpg"
             ], {
                 duration: 3000,
                 fade: 800

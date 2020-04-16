@@ -777,7 +777,7 @@ textarea.form-control {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  color: #FFF;
+  color: #333;
   padding: 7px 8px 8px;
   border-radius: 0;
   background-color: transparent;
@@ -816,7 +816,7 @@ textarea.form-control {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.95);
+  color: #333;
 }
 
 .form-control::-moz-placeholder {
