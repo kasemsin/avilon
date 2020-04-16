@@ -1231,6 +1231,12 @@
   content: "\f124";
 }
 
+.fa-gps:before {
+  content: "\f3c5";
+}
+
+
+
 .fa-crop:before {
   content: "\f125";
 }
