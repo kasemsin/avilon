@@ -634,7 +634,7 @@
           <div class='row'>
             <div class='col-sm-6'>
               <h1 class='section-title animated' data-animation-delay='50' data-animation='fadeInUp'>
-                Contacts<br><br>
+                Contacts php<br><br>
               </h1>
 
               <form action='#' method="POST" id='contact-form'>
